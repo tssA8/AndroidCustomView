@@ -9,7 +9,7 @@ custom slide to select view
 Usage
 -----
 Here is how to use this project.
-* add lintOptions and dexOptions gradle
+* add lintOptions and dexOptions in gradle
 ```
     lintOptions {
         checkReleaseBuilds false
@@ -24,7 +24,7 @@ Here is how to use this project.
         javaMaxHeapSize "4g"
     }
  ```
-* add  multiDexEnabled true in gradle
+* add multiDexEnabled in gradle
 ```
    defaultConfig {
         applicationId ".........."
