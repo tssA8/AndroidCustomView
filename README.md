@@ -8,7 +8,7 @@ custom slide to select view
 
 Usage
 -----
-Here is how to use this project to run this code.
+Here is how to use this project.
 * add lintOptions and dexOptions gradle
 ```
     lintOptions {
