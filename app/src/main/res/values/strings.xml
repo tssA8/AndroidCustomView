@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AndroidMotionArea</string>
+    <string name="motion_aera_view">Motion Area</string>
+    <!-- global string -->
+    <string name="g_done">Done</string>
+    <string name="g_back">Back</string>
+    <string name="g_add">Add</string>
+    <string name="g_modify">Modify</string>
+    <string name="g_delete">Delete</string>
+    <string name="g_ok">OK</string>
+    <string name="g_no">NO</string>
+    <string name="g_yes">YES</string>
+    <string name="g_cancel">Cancel</string>
+    <string name="g_save">Save</string>
+    <string name="g_apply_all">Apply All</string>
+    <string name="g_login">Log In</string>
+    <string name="g_select_all">Select All</string>
+    <string name="g_clear_all">Clear All</string>
+    <string name="language_end">.</string>
+    <string name="dialog_please_try_again">Please try again.</string>
+    <string name="dialog_connection_msg">Connection failed</string>
+    <string name="motion_aera_revert_to_last_store">Restore to original setting</string>
+    <string name="actionbar_item_search_again">Refresh</string>
+    <!-- app schedule -->
+    <string name="dialog_please_wait">Please wait...</string>
+    <string name="schedule_delete">Del</string>
+    <string name="schedule_whether_update_to_server">Schedule will update to server.</string>
+    <string name="schedule_update_to_server">Update</string>
+    <string name="schedule_Everyday">Everyday</string>
+    <string name="schedule_Weekday">Weekday</string>
+    <string name="schedule_Weekend">Weekend</string>
+    <string name="schedule_dialog_titile">Schedule</string>
+
+
+    <string name="schedule_Sun_short">S</string>
+    <string name="schedule_Mon_short">M</string>
+    <string name="schedule_Tue_short">T</string>
+    <string name="schedule_Wed_short">W</string>
+    <string name="schedule_Thu_short">T</string>
+    <string name="schedule_Fri_short">F</string>
+    <string name="schedule_Sat_short">S</string>
+
+
+    <!-- app motion area -->
+    <string name="motion_area_update_to_server">Motion Area will update to server.</string>
+    <string name="motion_area_update">Update?</string>
+    <string name="motion_area_undecetList_is_empty_dialog_message">Please check your Internet connection</string>
+    <string name="motion_area_cant_get_snap_shot_url">Receiving image failure</string>
+
+    <!-- installer -->
+    <string name="home_wifi_page_show_password_tips">Please ensure the WiFi Network you assign supports</string>
+    <string name="home_wifi_page_show_password_tips_focus_tag"> 2.4 GHz WiFi </string>
+
+
+    <string name="app_pairing_confirm">Pairing</string>
+
+    <string name="setting_camera_orientation_normal">normal</string>
+    <string name="setting_camera_orientation_horizontal_flip">horizontal</string>
+    <string name="setting_camera_orientation_vertical_flip">vertical</string>
+    <string name="setting_camera_orientation_rotate_180_degrees">Rotate180</string>
+
+</resources>

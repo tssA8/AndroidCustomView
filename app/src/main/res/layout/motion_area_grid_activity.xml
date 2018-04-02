@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:RectMaskViewAttr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/vg_control_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/vg_control_select_unselect_container"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_all_unselect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/setting_motion_clear_normal"
+                    android:layout_marginRight="8dp"/>
+
+                <ImageButton
+                    android:id="@+id/btn_all_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/setting_motion_selected_normal"
+                    android:layout_marginLeft="8dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/vg_revert_motion_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="@mipmap/btn_installer_normal"
+                android:layout_marginTop="54dp">
+
+                <ImageView
+                    android:id="@+id/iv_revert_motion_aera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/setting_motion_revert"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/tv_revert_motion_aera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motion_aera_revert_to_last_store"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="8dp"
+                    android:layout_toRightOf="@id/iv_revert_motion_aera"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/vg_snapshot_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/vg_control_container"
+        android:layout_below="@id/toolbar">
+
+
+        <ImageView
+            android:id="@+id/iv_snap_shot"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@color/white"
+            RectMaskViewAttr:layout_constraintBottom_toBottomOf="parent"
+            RectMaskViewAttr:layout_constraintLeft_toLeftOf="parent"
+            RectMaskViewAttr:layout_constraintRight_toRightOf="parent"
+            RectMaskViewAttr:layout_constraintTop_toTopOf="parent" />
+
+        <!--<tw.com.geovision.mygvcam.myview.RectMaskView-->
+        <!--android:id="@+id/rect_mask_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--RectMaskViewAttr:row_column="16"-->
+        <!--RectMaskViewAttr:select_color="@color/select_color"-->
+        <!--RectMaskViewAttr:unselect_color="@color/unselect_color"-->
+        <!--RectMaskViewAttr:trigger_color="@color/trigger_color"/>-->
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

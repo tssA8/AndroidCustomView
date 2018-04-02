@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+	<declare-styleable name="PrefixedEditText">
+        <attr name="prefixedTextColor" format="color"/>
+        <attr name="prefixedText" format="string" />
+		
+    </declare-styleable>
+    
+	<!--<array name="FishEyeViewMode">-->
+        <!--<item>@drawable/btn_v_normal</item>-->
+        <!--<item>@drawable/btns_menu_360</item>-->
+        <!--<item>@drawable/btns_menu_180</item>-->
+        <!--<item>@drawable/btns_menu_ptz</item>-->
+    <!--</array>-->
+    <!---->
+	<!--<array name="FishEyeMountType">-->
+        <!--<item>@drawable/btns_menu_ceiling</item>-->
+        <!--<item>@drawable/btns_menu_wall</item>-->
+        <!--<item>@drawable/btns_menu_floor</item>-->
+    <!--</array>-->
+
+
+    <declare-styleable name="RectMaskViewViewAttr">
+        <attr name="select_color" format="color"/>
+        <attr name="unselect_color" format="color"/>
+        <attr name="trigger_color" format="color"/>
+        <attr name="row_column" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ptz_speed_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="ptz_speed_entries_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+   
+    <!-- 直立時,X的數量 -->
+    <string-array name="multi_view_grid_size_x_display_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <integer-array name="multi_view_grid_size_x_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <!-- 直立時,Y的數量 -->
+    <string-array name="multi_view_grid_size_y_display_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <integer-array name="multi_view_grid_size_y_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    
+    <string-array name="filter_read_status_strings">
+        <item>All</item>
+        <item>Read</item>
+        <item>Unread</item>
+　　 </string-array>
+
+    <!--<array name="filter_read_status_drawable">-->
+	    <!--<item>@drawable/ic_camera</item>-->
+        <!--<item>@drawable/ic_read</item>-->
+        <!--<item>@drawable/ic_unread</item>-->
+    <!--</array>-->
+
+    <!--<integer-array name="wifi_status">-->
+        <!--<item>@drawable/sta_wifi_1</item>-->
+        <!--<item>@drawable/sta_wifi_2</item>-->
+        <!--<item>@drawable/sta_wifi_3</item>-->
+        <!--<item>@drawable/sta_wifi_4</item>-->
+        <!--<item>@drawable/sta_wifi_unknow</item>-->
+    <!--</integer-array>-->
+
+    <!--<integer-array name="battery_status">-->
+        <!--<item>@drawable/sta_battery_1</item>-->
+        <!--<item>@drawable/sta_battery_2</item>-->
+        <!--<item>@drawable/sta_battery_3</item>-->
+        <!--<item>@drawable/sta_battery_4</item>-->
+        <!--<item>@drawable/sta_battery_unknow</item>-->
+    <!--</integer-array>-->
+
+    <!--<integer-array name="battery_and_acdc_status">-->
+        <!--<item>@drawable/sta_battery_1c</item>-->
+        <!--<item>@drawable/sta_battery_2c</item>-->
+        <!--<item>@drawable/sta_battery_3c</item>-->
+        <!--<item>@drawable/sta_battery_4c</item>-->
+        <!--<item>@drawable/sta_battery_unknow</item>-->
+    <!--</integer-array>-->
+
+
+    <string-array name="time_zone_name_text">
+        <item>(GMT-12:00) Kwajalein</item>
+        <item>(GMT-11:00) Midway Island, Samoa</item>
+        <item>(GMT-10:00) Hawaii</item>
+        <item>(GMT-09:00) Alaska</item>
+        <item>(GMT-08:00) Pacific Time (US and\n Canada); Tijuana</item>
+        <item>(GMT-07:00) Mountain Time (US and\n Canada)</item>
+        <item>(GMT-07:00) Arizona</item>
+        <item>(GMT-07:00) Chihuahua, La Paz,\n Mazatland</item>
+        <item>(GMT-06:00) Central Time (US and\n Canada)</item>
+        <item>(GMT-06:00) Saskatchewan</item>
+        <item>(GMT-06:00) Guadalajara, Mexico \nCity, Monterrey</item>
+        <item>(GMT-06:00) Central America</item>
+        <item>(GMT-05:00) Eastern Time (US and\n Canada)</item>
+        <item>(GMT-05:00) Indiana (East)</item>
+        <item>(GMT-05:00) Bogota, Lima, Quito</item>
+        <item>(GMT-04:30) Caracas, La Paz</item>
+        <item>(GMT-04:00) Santiago</item>
+        <item>(GMT-04:00) Atlantic Time \n(Canada)</item>
+        <item>(GMT-03:30) Newfoundland and\n Labrador</item>
+        <item>(GMT-03:00) Brasilia</item>
+        <item>(GMT-03:00) Buenos Aires, \nGeorgetown</item>
+        <item>(GMT-03:00) Greenland</item>
+        <item>(GMT-02:00) Mid-Atlantic</item>
+        <item>(GMT-01:00) Azores</item>
+        <item>(GMT+00:00) Gambia,Liberia,\nMorocco,England</item>
+        <item>(GMT+01:00) Amsterdam, Berlin, \nBern, Rome, Stockholm, Vienna</item>
+        <item>(GMT+01:00) Belgrade, Bratislava, \nBudapest, Ljubljana, Prague</item>
+        <item>(GMT+01:00) Sarajevo, Skopje, \nWarsaw, Zagreb</item>
+        <item>(GMT+01:00) Brussels, Copenhagen, \nMadrid, Paris</item>
+        <item>(GMT+02:00) Bucharest</item>
+        <item>(GMT+02:00) Cairo</item>
+        <item>(GMT+02:00) Helsinki, Kiev, Riga, \nSofia, Tallinn, Vilnius</item>
+        <item>(GMT+02:00) Athens, Istanbul, \nMinsk</item>
+        <item>(GMT+02:00) Jerusalem</item>
+        <item>(GMT+02:00) Harare, Pretoria</item>
+        <item>(GMT+03:00) Kuwait, Riyadh</item>
+        <item>(GMT+03:00) Nairobi</item>
+        <item>(GMT+03:00) Baghdad</item>
+        <item>(GMT+03:00) Moscow, St. Petersburg,\n Volgograd</item>
+        <item>(GMT+03:30) Tehran</item>
+        <item>(GMT+04:00) Abu Dhabi, Muscat</item>
+        <item>(GMT+04:00) Baku, Tbilisi, Yerevan</item>
+        <item>(GMT+04:30) Kabul</item>
+        <item>(GMT+05:00) Islamabad, Karachi, \nTashkent</item>
+        <item>(GMT+05:30) Chennai, Kolkata, \nMumbai, New Delhi</item>
+        <item>(GMT+05:45) Kathmandu</item>
+        <item>(GMT+06:00) Ekaterinburg, Astana, \nDhaka</item>
+        <item>(GMT+06:30) Rangoon</item>
+        <item>(GMT+07:00) Bangkok, Hanoi, \nJakarta, Krasnoyarsk</item>
+        <item>(GMT+08:00) Taipei</item>
+        <item>(GMT+08:00) Beijing, Chongqing, \nHong Kong SAR, Urumqi</item>
+        <item>(GMT+08:00) Kuala Lumpur, \nSingapore</item>
+        <item>(GMT+08:00) Perth</item>
+        <item>(GMT+08:00) Irkutsk, Ulaanbaatar</item>
+        <item>(GMT+09:00) Osaka, Sapporo, Tokyo</item>
+        <item>(GMT+09:00) Seoul</item>
+        <item>(GMT+09:00) Yakutsk</item>
+        <item>(GMT+09:30) Adelaide</item>
+        <item>(GMT+09:30) Darwin</item>
+        <item>(GMT+10:00) Brisbane</item>
+        <item>(GMT+10:00) Canberra, Melbourne, \nSydney</item>
+        <item>(GMT+10:00) Hobart</item>
+        <item>(GMT+10:00) Guam, Port Moresby</item>
+        <item>(GMT+11:00) Vladivostok</item>
+        <item>(GMT+12:00) Fiji Islands, \nKamchatka, Marshall Islands</item>
+        <item>(GMT+12:00) Magadan, Solomon \nIslands, New Caledonia</item>
+        <item>(GMT+12:00) Auckland, Wellington</item>
+
+    </string-array>
+
+    <string-array name="time_zone_values">
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>51</item>
+        <item>50</item>
+        <item>20</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>21</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>22</item>
+        <item>58</item>
+        <item>13</item>
+        <item>23</item>
+        <item>59</item>
+        <item>60</item>
+        <item>24</item>
+        <item>25</item>
+        <item>0</item>
+        <item>1</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>2</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>3</item>
+        <item>40</item>
+        <item>41</item>
+        <item>4</item>
+        <item>26</item>
+        <item>42</item>
+        <item>43</item>
+        <item>27</item>
+        <item>5</item>
+        <item>28</item>
+        <item>29</item>
+        <item>6</item>
+        <item>30</item>
+        <item>7</item>
+        <item>8</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>9</item>
+        <item>66</item>
+        <item>67</item>
+        <item>31</item>
+        <item>44</item>
+        <item>10</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>11</item>
+        <item>12</item>
+        <item>48</item>
+        <item>49</item>
+
+    </string-array>
+
+    <string-array name="camera_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="camera_quality_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="camera_orientation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="camera_orientation_text">
+        <item>@string/setting_camera_orientation_normal</item>
+        <item>@string/setting_camera_orientation_horizontal_flip</item>
+        <item>@string/setting_camera_orientation_vertical_flip</item>
+        <item>@string/setting_camera_orientation_rotate_180_degrees</item>
+    </string-array>
+
+
+    
+</resources>

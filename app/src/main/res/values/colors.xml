@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="week_select_color">#333333</color>
+    <color name="week_unselect_color">#ffffff</color>
+    <color name="week_select_bg_color">#40b4e5</color>
+
+
+    <!--rect color -->
+    <color name="rect_bg">#FFFFFF</color>
+    <color name="select_color">#FF3333</color>
+    <color name="unselect_color">#a5e4fe</color>
+    <color name="trigger_color">#ff69b4</color>
+
+    <!-- schedule mark color -->
+    <color name="schedule_select_mark_color">#a5e4fe</color>
+
+    <!-- -->
+    <color name="motion_aera_revert_text_color">#ffffff</color>
+    <color name="motion_aera_select_color">#9940b4e5</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="haif_transparent_color">#77000000</color>
+</resources>
