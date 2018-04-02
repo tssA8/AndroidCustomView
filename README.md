@@ -2,7 +2,7 @@
 
 Custom View with Android Studio
 =================================
-Slide to Select view , grid view ,CustomVie
+Slide to Select view , grid view ,CustomView
 
 custom slide to select view 
 
